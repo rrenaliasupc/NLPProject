@@ -5,4 +5,6 @@ intents:
       - sentences:
           #- "([Fes un] anunci|anuncia) [a tot arreu] [que digui|dient] [que] {message}"
           #- "[Fes un] broadcast [a tot arreu] [que digui|dient] [que] {message}"
-          - "<area>"
+          #- "<area>"
+          #- "¿[hola|epp] com estas?"
+          - "Inici frase [[Hola|Hi]|Adeu] fi frase"
