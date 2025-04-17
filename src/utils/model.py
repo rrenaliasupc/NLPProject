@@ -5,8 +5,8 @@ from transformers import BertConfig, BertTokenizerFast, BertModel, BertPreTraine
 from pathlib import Path
 # Go two levels up from this file's directory: /src/utils/ → / → project root
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-MODEL_DEFAULT_PATH = str(PROJECT_ROOT / "build" / "model.pt")
-DATASET_DEFAULT_PATH = str(PROJECT_ROOT / "build" / "dataset.jsonl")
+MODEL_DEFAULT_PATH = f"{PROJECT_ROOT}/build/model.pt"
+DATASET_DEFAULT_PATH = f"{PROJECT_ROOT}/dataset/dataset.jsonl"
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 

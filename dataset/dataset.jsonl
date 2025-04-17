@@ -1,0 +1,20 @@
+{"text": "Engega la cuina", "labels": ["B-ACTION-TURN-ON", "O", "B-LOCATION"]}
+{"text": "Apaga el llum del menjador", "labels": ["B-ACTION-TURN-OFF", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Encén les llums del passadís", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Tanca la porta del balcó", "labels": ["B-ACTION-TURN-OFF", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Obre la finestra del lavabo", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Posa la televisió al menjador", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Tanca les finestres de l'habitació", "labels": ["B-ACTION-TURN-OFF", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Apaga les llums", "labels": ["B-ACTION-TURN-OFF", "O", "B-DEVICE"]}
+{"text": "Enceneu el llum de la cuina", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE", "O", "O", "B-LOCATION"]}
+{"text": "Tanqui la persiana del menjador", "labels": ["B-ACTION-TURN-OFF", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Obriu les finestres", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "Posa'm la tele", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "Tanca la porta", "labels": ["B-ACTION-TURN-OFF", "O", "B-DEVICE"]}
+{"text": "Encén el llum", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "Apagueu les llums del passadís", "labels": ["B-ACTION-TURN-OFF", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Tanqueu la persiana de la cuina", "labels": ["B-ACTION-TURN-OFF", "O", "B-DEVICE", "O", "O", "B-LOCATION"]}
+{"text": "Obre la persiana", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "Tanca la finestra del lavabo", "labels": ["B-ACTION-TURN-OFF", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Engegueu el llum", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "Apaga la llum de l’habitació", "labels": ["B-ACTION-TURN-OFF", "O", "B-DEVICE", "O", "B-LOCATION"]}
