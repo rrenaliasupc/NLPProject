@@ -13,6 +13,8 @@ DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 LABELS = [
     "O", 
     "B-ACTION", "I-ACTION",
+    "B-ACTION-TURN-ON", "I-ACTION-TURN-ON",
+    "B-ACTION-TURN-OFF", "I-ACTION-TURN-OFF",
     "B-DEVICE", "I-DEVICE",
     "B-LOCATION", "I-LOCATION"
 ]

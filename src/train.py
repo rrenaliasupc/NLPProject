@@ -38,7 +38,7 @@ optimizer = AdamW(model.parameters(), lr=5e-5)
 
 # Training loop
 model.train()
-for epoch in range(5):
+for epoch in range(10): # Epochs
     optimizer.zero_grad()
     input_ids_batch = input_ids.to(DEVICE)
     attention_mask_batch = attention_mask.to(DEVICE)
