@@ -2,6 +2,12 @@ import torch
 import torch.nn as nn
 from transformers import BertModel, BertTokenizer
 
+from pathlib import Path
+# Go two levels up from this file's directory: /src/utils/ → / → project root
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+MODEL_DEFAULT_PATH = str(PROJECT_ROOT / "build" / "model.pt")
+DATASET_DEFAULT_PATH = str(PROJECT_ROOT / "build" / "dataset.jsonl")
+
 class SmartHomeClassifier(nn.Module):
     def __init__(self, hidden_size=768):
         super().__init__()
