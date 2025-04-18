@@ -1,0 +1,12 @@
+[
+    "HassBroadcast",
+    "HassClimateGetTemperature",
+    "HassClimateSetTemperature",
+    "HassTurnOff",
+    "HassTurnOn",
+    "HassSetPosition",
+    "HassGetState",
+    "HassVacuumReturnToBase",
+    "HassVacuumStart",
+    "none"
+]
