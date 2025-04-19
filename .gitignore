@@ -317,8 +317,8 @@ tf
 **/__pycache__
 
 *.csv
-dataset/dataset_llm_augmented.jsonl
+dataset/dataset_augmented.jsonl
 dataset/home_assistant_expansion/dataset_homeassistant.jsonl
 dataset/home_assistant_expansion/domain-types.json
 dataset/home_assistant_expansion/intent-types.json
-dataset/home_assistant_expansion/dataset_homeassistant.jsonl
+dataset/home_assistant_expansion/slots.json

@@ -88,10 +88,10 @@ To multiple samples by using all possible permutations. In the following text
 we replaced \textit{device} for \textit{llum} and \textit{area} for \textit{labavo}. However, we use multiple values for these fields. You can easily see how fast this can grow.
 
 \begin{verbatim}
-engega el llum del labavo
-encen el llum de la labavo
-engega el llum de la labavo
-encen el llum del labavo
+engega el llum del lavabo
+encen el llum de la lavabo
+engega el llum de la lavabo
+encen el llum del lavabo
 \end{verbatim}
 
 The hardest part, though, is to map each part of the sentence with a label. It's straight forward to map the devices and areas to a label, but we have used a bit of code to map the action.
@@ -162,6 +162,14 @@ We're pretty pleased with these results, since these sentences differ strongly f
 In this project we've been able to play with natural language processing tools such as Speech-To-Text tools, Named Entity Recognition, Transformers, and all of this within open-source software. Although we didn't reach all the planned goals, we submitted a functional system that demonstrates that the transformer can be trained with a very short dataset and provide very accurate results.
 
 A great extension to this work would be to integrate it into HomeAssistant, but also to replace the model with an LLM and discover how better or worse the latter performs compared to our work.
+Figure \ref{fig:utopic} exposes an architecture improvement if we still wan to fine-tune models.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.9\linewidth]{utopic.png}
+    \caption{A better architecture (and more sophisticated) would be one that extracts separately (using NER or classifiers depending on the case) the information from the sentence. Classifiers could be combined if necessary to spare some resources.}
+    \label{fig:utopic}
+\end{figure}
 
 % \bibliographystyle{apalike}
 \bibliographystyle{plain}

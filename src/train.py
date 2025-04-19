@@ -5,7 +5,7 @@ from utils.model import SmartHomeNER, LABEL2ID, MODEL_DEFAULT_PATH, DATASET_DEFA
 import json, random, pathlib
 
 BATCH_SIZE = 70
-EPOCHS = 5
+EPOCHS = 15
 
 tokenizer = BertTokenizer.from_pretrained("bert-base-multilingual-cased")
 
@@ -13,7 +13,7 @@ pathlib.Path(f"{PROJECT_ROOT}/build").mkdir(parents=True, exist_ok=True)
 
 # --- Dataset format: each entry has "text" and "labels" (list of BIO tags per token)
 def encode_sample(sample):
-    tokens = tokenizer(sample["text"].split(), is_split_into_words=True, return_tensors="pt", truncation=True, padding='max_length', max_length=32)
+    tokens = tokenizer(sample["text"].lower().split(), is_split_into_words=True, return_tensors="pt", truncation=True, padding='max_length', max_length=32)
     word_ids = tokens.word_ids()  # mapping of subword to word index
 
     label_ids = []
