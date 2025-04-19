@@ -6,7 +6,11 @@ ML and Cybersecurity for Internet-Connected Devices MSc.*
 
 ## Overview
 
-TODO
+This repository contains a NER that finds the needed tags for a voice
+assistant to determine what actions it should do.
+- Dataset generation tools.
+- Speech to text using Whisper to have "real" (i.e. bad) transcriptions.
+- Scripts to train and infer the model, based on BERT.
 
 ## Repository distribution
 

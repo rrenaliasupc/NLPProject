@@ -1,13 +1,15 @@
 import torch
 from transformers import BertTokenizerFast as BertTokenizer, BertConfig
 from torch.optim import AdamW
-from utils.model import SmartHomeNER, LABEL2ID, MODEL_DEFAULT_PATH, DATASET_DEFAULT_PATH, DEVICE
-import json, random
+from utils.model import SmartHomeNER, LABEL2ID, MODEL_DEFAULT_PATH, DATASET_DEFAULT_PATH, DEVICE, PROJECT_ROOT
+import json, random, pathlib
 
 BATCH_SIZE = 70
 EPOCHS = 5
 
 tokenizer = BertTokenizer.from_pretrained("bert-base-multilingual-cased")
+
+pathlib.Path(f"{PROJECT_ROOT}/build").mkdir(parents=True, exist_ok=True)
 
 # --- Dataset format: each entry has "text" and "labels" (list of BIO tags per token)
 def encode_sample(sample):
