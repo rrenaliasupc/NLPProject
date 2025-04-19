@@ -31,8 +31,8 @@ with open(DATASET_DEFAULT_PATH) as f:
     encoded = [encode_sample(s) for s in raw_samples]
 
 random.shuffle(encoded)
-train_size = int(0.8 * len(encoded))
-test_size = len(encoded) - train_size
+test_size = min(int(0.2 * len(encoded)), BATCH_SIZE)
+train_size = len(encoded) - test_size
 
 # Split into train/test
 train_dataset, test_dataset = encoded[:train_size], encoded[train_size:]
