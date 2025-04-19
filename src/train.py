@@ -2,7 +2,10 @@ import torch
 from transformers import BertTokenizerFast as BertTokenizer, BertConfig
 from torch.optim import AdamW
 from utils.model import SmartHomeNER, LABEL2ID, MODEL_DEFAULT_PATH, DATASET_DEFAULT_PATH, DEVICE
-import json
+import json, random
+
+BATCH_SIZE = 70
+EPOCHS = 5
 
 tokenizer = BertTokenizer.from_pretrained("bert-base-multilingual-cased")
 
@@ -25,10 +28,13 @@ with open(DATASET_DEFAULT_PATH) as f:
     raw_samples = [json.loads(l) for l in f]
     encoded = [encode_sample(s) for s in raw_samples]
 
-# Stack everything
-input_ids = torch.cat([e["input_ids"] for e in encoded])
-attention_mask = torch.cat([e["attention_mask"] for e in encoded])
-labels = torch.cat([e["labels"] for e in encoded])
+random.shuffle(encoded)
+train_size = int(0.8 * len(encoded))
+test_size = len(encoded) - train_size
+
+# Split into train/test
+train_dataset, test_dataset = encoded[:train_size], encoded[train_size:]
+assert len(test_dataset) == test_size
 
 # Model
 config = BertConfig.from_pretrained("bert-base-multilingual-cased", num_labels=len(LABEL2ID))
@@ -38,7 +44,14 @@ optimizer = AdamW(model.parameters(), lr=5e-5)
 
 # Training loop
 model.train()
-for epoch in range(10): # Epochs
+for epoch in range(EPOCHS):
+    random.shuffle(train_dataset)
+    current_batch = train_dataset[:BATCH_SIZE]
+    # Stack everything
+    input_ids = torch.cat([e["input_ids"] for e in current_batch])
+    attention_mask = torch.cat([e["attention_mask"] for e in current_batch])
+    labels = torch.cat([e["labels"] for e in current_batch])
+
     optimizer.zero_grad()
     input_ids_batch = input_ids.to(DEVICE)
     attention_mask_batch = attention_mask.to(DEVICE)
@@ -51,3 +64,21 @@ for epoch in range(10): # Epochs
     print(f"Epoch {epoch+1}: loss = {loss.item():.4f}")
 
 torch.save(model.state_dict(), str(MODEL_DEFAULT_PATH))
+
+# validation
+random.shuffle(test_dataset)
+current_batch = test_dataset[:BATCH_SIZE]
+input_ids = torch.cat([e["input_ids"] for e in test_dataset])
+attention_mask = torch.cat([e["attention_mask"] for e in test_dataset])
+labels = torch.cat([e["labels"] for e in test_dataset])
+
+model.eval()
+with torch.no_grad():
+    optimizer.zero_grad()
+    input_ids_batch = input_ids.to(DEVICE)
+    attention_mask_batch = attention_mask.to(DEVICE)
+    labels_batch = labels.to(DEVICE)
+
+    loss, _ = model(input_ids=input_ids_batch, attention_mask=attention_mask_batch, labels=labels_batch)
+
+print(f"Validation loss = {loss:.4f}")

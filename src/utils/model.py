@@ -6,7 +6,7 @@ from pathlib import Path
 # Go two levels up from this file's directory: /src/utils/ → / → project root
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 MODEL_DEFAULT_PATH = f"{PROJECT_ROOT}/build/model.pt"
-DATASET_DEFAULT_PATH = f"{PROJECT_ROOT}/dataset/dataset.jsonl"
+DATASET_DEFAULT_PATH = f"{PROJECT_ROOT}/dataset/dataset_augmented.jsonl"
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -16,7 +16,8 @@ LABELS = [
     "B-ACTION-TURN-ON", "I-ACTION-TURN-ON",
     "B-ACTION-TURN-OFF", "I-ACTION-TURN-OFF",
     "B-DEVICE", "I-DEVICE",
-    "B-LOCATION", "I-LOCATION"
+    "B-LOCATION", "I-LOCATION",
+    "B-ACTION-NONE", "I-ACTION-NONE",
 ]
 
 LABEL2ID = {label: idx for idx, label in enumerate(LABELS)}

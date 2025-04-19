@@ -1,0 +1,149 @@
+{"text": "Engega la cuina", "labels": ["B-ACTION-TURN-ON", "O", "B-LOCATION"]}
+{"text": "Engega cunia", "labels": ["B-ACTION-TURN-ON", "B-LOCATION"]}
+{"text": "Apaga el llum del menjador", "labels": ["B-ACTION-TURN-OFF", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "apague llom del menjador", "labels": ["B-ACTION-TURN-OFF", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Encén les llums del passadís", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Encén les llums del pasadís", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Tanca la porta del balcó", "labels": ["B-ACTION-TURN-OFF", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Obre la finestra del lavabo", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Obre la finesa lavabo", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE", "B-LOCATION"]}
+{"text": "Posa la televisió al menjador", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Tanca les finestres de l'habitació", "labels": ["B-ACTION-TURN-OFF", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Tanca les finestres lhabitació", "labels": ["B-ACTION-TURN-OFF", "O", "B-DEVICE", "B-LOCATION"]}
+{"text": "Apaga les llums", "labels": ["B-ACTION-TURN-OFF", "O", "B-DEVICE"]}
+{"text": "apague les llums", "labels": ["B-ACTION-TURN-OFF", "O", "B-DEVICE"]}
+{"text": "Enceneu el llum de la cuina", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE", "O", "O", "B-LOCATION"]}
+{"text": "enceneu el jun de quina", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Tanqui la persiana del menjador", "labels": ["B-ACTION-TURN-OFF", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Tanqui persia del mejador", "labels": ["B-ACTION-TURN-OFF", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Obriu les finestres", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "Posa'm la tele", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "Posam la tele", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "Tanca la porta", "labels": ["B-ACTION-TURN-OFF", "O", "B-DEVICE"]}
+{"text": "tanca la pòrta", "labels": ["B-ACTION-TURN-OFF", "O", "B-DEVICE"]}
+{"text": "Encén el llum", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "Encén llúm", "labels": ["B-ACTION-TURN-ON", "B-DEVICE"]}
+{"text": "Apagueu les llums del passadís", "labels": ["B-ACTION-TURN-OFF", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Apagueu les llums passadís", "labels": ["B-ACTION-TURN-OFF", "O", "B-DEVICE", "B-LOCATION"]}
+{"text": "Tanqueu la persiana de la cuina", "labels": ["B-ACTION-TURN-OFF", "O", "B-DEVICE", "O", "O", "B-LOCATION"]}
+{"text": "Tanqueu persian de cuin", "labels": ["B-ACTION-TURN-OFF", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Obre la persiana", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "Obre la perxiana", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "Tanca la finestra del lavabo", "labels": ["B-ACTION-TURN-OFF", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Tanca finetra del lavabo", "labels": ["B-ACTION-TURN-OFF", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Engegueu el llum", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "Apaga la llum de l’habitació", "labels": ["B-ACTION-TURN-OFF", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Apaga la llom l’habitació", "labels": ["B-ACTION-TURN-OFF", "O", "B-DEVICE", "B-LOCATION"]}
+{"text": "Cal tancar la persiana", "labels": ["O", "B-ACTION-TURN-OFF", "O", "B-DEVICE"]}
+{"text": "Cal tancar persiana", "labels": ["O", "B-ACTION-TURN-OFF", "B-DEVICE"]}
+{"text": "Cal encendre el llum", "labels": ["O", "B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "Cal encendre el llom", "labels": ["O", "B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "Has d'obrir el llum", "labels": ["O", "B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "Has dobrir el llom", "labels": ["O", "B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "Has d'apagar les llums", "labels": ["O", "B-ACTION-TURN-OFF", "O", "B-DEVICE"]}
+{"text": "Has dapagar les llums", "labels": ["O", "B-ACTION-TURN-OFF", "O", "B-DEVICE"]}
+{"text": "Hem d'engegar la televisió", "labels": ["O", "B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "Hem dengegar la tele", "labels": ["O", "B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "Cal apagar la llum del lavabo", "labels": ["O", "B-ACTION-TURN-OFF", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Cal apagar la llom del lavabo", "labels": ["O", "B-ACTION-TURN-OFF", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Has de tancar les finestres de la cuina", "labels": ["O", "O", "B-ACTION-TURN-OFF", "O", "B-DEVICE", "O", "O", "B-LOCATION"]}
+{"text": "Has de tancar les finestres cuina", "labels": ["O", "O", "B-ACTION-TURN-OFF", "O", "B-DEVICE", "B-LOCATION"]}
+{"text": "Hem d'obrir la persiana del menjador", "labels": ["O", "B-ACTION-TURN-ON", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Hem dobrir persian del menjador", "labels": ["O", "B-ACTION-TURN-ON", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Cal obrir la finestra", "labels": ["O", "B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "Cal obir finestra", "labels": ["O", "B-ACTION-TURN-ON", "B-DEVICE"]}
+{"text": "Has de posar la tele", "labels": ["O", "O", "B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "Vull obrir la finestra del lavabo", "labels": ["O", "B-ACTION-TURN-ON", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Vull obir la finesa del lavabo", "labels": ["O", "B-ACTION-TURN-ON", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Podries tancar les llums del passadís", "labels": ["O", "B-ACTION-TURN-OFF", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Podries tancar les llums del passadi", "labels": ["O", "B-ACTION-TURN-OFF", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Prova de posar la televisió al menjador", "labels": ["O", "O", "B-ACTION-TURN-ON", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Prova de posar televisió al menjador", "labels": ["O", "O", "B-ACTION-TURN-ON", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Intentem apagar la llum", "labels": ["O", "B-ACTION-TURN-OFF", "O", "B-DEVICE"]}
+{"text": "Intentem apagar llúm", "labels": ["O", "B-ACTION-TURN-OFF", "B-DEVICE"]}
+{"text": "És necessari encendre el llum de la cuina", "labels": ["O", "O", "B-ACTION-TURN-ON", "O", "B-DEVICE", "O", "O", "B-LOCATION"]}
+{"text": "És necessari encendre jun de cuina", "labels": ["O", "O", "B-ACTION-TURN-ON", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Em pots tancar la finestra?", "labels": ["O", "O", "B-ACTION-TURN-OFF", "O", "B-DEVICE", "O"]}
+{"text": "Em pots tancar la finestra?", "labels": ["O", "O", "B-ACTION-TURN-OFF", "O", "B-DEVICE"]}
+{"text": "Jo obriré la persiana del menjador", "labels": ["O", "B-ACTION-TURN-ON", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Jo obriré persian del mejador", "labels": ["O", "B-ACTION-TURN-ON", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Es pot apagar el llum del lavabo", "labels": ["O", "O", "B-ACTION-TURN-OFF", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Es pot apagar llúm del lavabo", "labels": ["O", "O", "B-ACTION-TURN-OFF", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Seria bo encendre les llums", "labels": ["O", "O", "B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "Crec que cal engegar la televisió", "labels": ["O", "O", "O", "B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "Crec que cal engegar tele", "labels": ["O", "O", "O", "B-ACTION-TURN-ON", "B-DEVICE"]}
+{"text": "Val més que tanquem la porta del balcó", "labels": ["O", "O", "O", "B-ACTION-TURN-OFF", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Val més que tanquem la porta balcó", "labels": ["O", "O", "O", "B-ACTION-TURN-OFF", "O", "B-DEVICE", "B-LOCATION"]}
+{"text": "Hauries d'obrir la persiana de la cuina", "labels": ["O", "B-ACTION-TURN-ON", "O", "B-DEVICE", "O", "O", "B-LOCATION"]}
+{"text": "Hauries dobrir la persia de cuin", "labels": ["O", "B-ACTION-TURN-ON", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Voldria apagar les llums de l'habitació", "labels": ["O", "B-ACTION-TURN-OFF", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Voldria apga les llums de lhabitació", "labels": ["O", "B-ACTION-TURN-OFF", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "T'agradaria encendre el llum?", "labels": ["O", "B-ACTION-TURN-ON", "O", "B-DEVICE", "O"]}
+{"text": "T agradaria encendre llum?", "labels": ["O", "O", "B-ACTION-TURN-ON", "B-DEVICE"]}
+{"text": "Hem d'encendre la persiana", "labels": ["O", "B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "Hem dencendre la persia", "labels": ["O", "B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "És hora d'obrir la finestra del lavabo", "labels": ["O", "O", "B-ACTION-TURN-ON", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "És hora dobrir la finestra del lavabo", "labels": ["O", "O", "B-ACTION-TURN-ON", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Jo mateix apagaré la televisió", "labels": ["O", "O", "B-ACTION-TURN-OFF", "O", "B-DEVICE"]}
+{"text": "Jo mateix apagaré televisió", "labels": ["O", "O", "B-ACTION-TURN-OFF", "B-DEVICE"]}
+{"text": "Encara cal tancar la persiana", "labels": ["O", "O", "B-ACTION-TURN-OFF", "O", "B-DEVICE"]}
+{"text": "Encara cal tancar la perxiana", "labels": ["O", "O", "B-ACTION-TURN-OFF", "O", "B-DEVICE"]}
+{"text": "Pots posar la tele per mi?", "labels": ["O", "B-ACTION-TURN-ON", "O", "B-DEVICE", "O", "O"]}
+{"text": "No oblidis tancar la finestra de l'habitació", "labels": ["O", "O", "B-ACTION-TURN-OFF", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "No oblidis tancar finestrà de lhabitació", "labels": ["O", "O", "B-ACTION-TURN-OFF", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Posa'm la llumeta, va", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE", "O"]}
+{"text": "Posam llumeta, va", "labels": ["B-ACTION-TURN-ON", "B-DEVICE", "O"]}
+{"text": "Tanquem això, no?", "labels": ["B-ACTION-TURN-OFF", "O", "O"]}
+{"text": "Si vols, pots apagar el llum", "labels": ["O", "O", "O", "B-ACTION-TURN-OFF", "O", "B-DEVICE"]}
+{"text": "Si vols, pots apagar el llúm", "labels": ["O", "O", "O", "B-ACTION-TURN-OFF", "O", "B-DEVICE"]}
+{"text": "No cal que encenguis res", "labels": ["O", "O", "O", "B-ACTION-TURN-ON", "O"]}
+{"text": "La llum ha de ser apagada", "labels": ["O", "B-DEVICE", "O", "O", "O", "B-ACTION-TURN-OFF"]}
+{"text": "La jun ha de ser apagada", "labels": ["O", "B-DEVICE", "O", "O", "O", "B-ACTION-TURN-OFF"]}
+{"text": "Encenem el llum o què?", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE", "O", "O"]}
+{"text": "Encenem el llom o què?", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE", "O", "O"]}
+{"text": "Desconnecta la tele, que molesta", "labels": ["B-ACTION-TURN-OFF", "O", "B-DEVICE", "O", "O"]}
+{"text": "Desconnecta la tele, molesta", "labels": ["B-ACTION-TURN-OFF", "O", "B-DEVICE", "O"]}
+{"text": "Obre el finestró", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "Obre finestró", "labels": ["B-ACTION-TURN-ON", "B-DEVICE"]}
+{"text": "Tanquem la ventana del bany", "labels": ["B-ACTION-TURN-OFF", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "Posa la llumeta de l’estudi", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "pussa la llumeta de l’estudi", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "No apaguis res encara", "labels": ["O", "B-ACTION-TURN-OFF", "O", "O"]}
+{"text": "Això hauria d’estar obert", "labels": ["O", "O", "O", "B-ACTION-TURN-ON"]}
+{"text": "Que no estigui apagat el llum", "labels": ["O", "O", "O", "B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "Que no estigui apagat el jun", "labels": ["O", "O", "O", "B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "Jo ho deixaria engegat", "labels": ["O", "O", "O", "B-ACTION-TURN-ON"]}
+{"text": "Deixa la llum encesa", "labels": ["B-ACTION-TURN-ON", "O", "B-DEVICE", "O"]}
+{"text": "Deixa llúm encesa", "labels": ["B-ACTION-TURN-ON", "B-DEVICE", "O"]}
+{"text": "No t'oblidis d'encendre el llum", "labels": ["O", "O", "B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "No toblidis dencendre el llom", "labels": ["O", "O", "B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "Avisa'm si tanques la porta", "labels": ["O", "O", "B-ACTION-TURN-OFF", "O", "B-DEVICE"]}
+{"text": "Avisam si tanques la porra", "labels": ["O", "O", "B-ACTION-TURN-OFF", "O", "B-DEVICE"]}
+{"text": "La llum del passadís està encesa?", "labels": ["B-DEVICE", "O", "B-LOCATION", "O", "B-ACTION-TURN-ON", "O"]}
+{"text": "jun del passadís està encesa?", "labels": ["O", "B-LOCATION", "O", "B-ACTION-TURN-ON", "O"]}
+{"text": "Hauríem d'obrir les persianes", "labels": ["O", "B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "Hauríem dobrir les persianes", "labels": ["O", "B-ACTION-TURN-ON", "O", "B-DEVICE"]}
+{"text": "No m'engeguis la tele encara", "labels": ["B-ACTION-NONE", "I-ACTION-NONE", "O", "B-DEVICE", "O"]}
+{"text": "No mengeguis la tele encara", "labels": ["B-ACTION-NONE", "I-ACTION-NONE", "O", "B-DEVICE", "O"]}
+{"text": "No encenguis el llum", "labels": ["B-ACTION-NONE", "I-ACTION-NONE", "O", "B-DEVICE"]}
+{"text": "No tanquis la finestra del lavabo", "labels": ["B-ACTION-NONE", "I-ACTION-NONE", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "No tanquis finesa del lavabo", "labels": ["B-ACTION-NONE", "I-ACTION-NONE", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "No apagueu les llums del menjador", "labels": ["B-ACTION-NONE", "I-ACTION-NONE", "O", "B-DEVICE", "O", "B-LOCATION"]}
+{"text": "No apagueu les llums mejado", "labels": ["B-ACTION-NONE", "I-ACTION-NONE", "O", "B-DEVICE", "B-LOCATION"]}
+{"text": "No obriu la persiana", "labels": ["B-ACTION-NONE", "I-ACTION-NONE", "O", "B-DEVICE"]}
+{"text": "No deixis tancada la porta", "labels": ["B-ACTION-NONE", "I-ACTION-NONE", "I-ACTION-NONE", "O", "B-DEVICE"]}
+{"text": "No cal apagar res", "labels": ["B-ACTION-NONE", "I-ACTION-NONE", "I-ACTION-NONE", "O"]}
+{"text": "No cal que engeguis la televisió", "labels": ["B-ACTION-NONE", "I-ACTION-NONE", "I-ACTION-NONE", "I-ACTION-NONE", "O", "B-DEVICE"]}
+{"text": "No cal que engeguis la telebició", "labels": ["B-ACTION-NONE", "I-ACTION-NONE", "I-ACTION-NONE", "I-ACTION-NONE", "O", "B-DEVICE"]}
+{"text": "No s'hauria d'obrir la finestra", "labels": ["B-ACTION-NONE", "I-ACTION-NONE", "I-ACTION-NONE", "O", "B-DEVICE"]}
+{"text": "No shauria dobrir finestra", "labels": ["B-ACTION-NONE", "I-ACTION-NONE", "I-ACTION-NONE", "B-DEVICE"]}
+{"text": "Que no estigui encesa la llum", "labels": ["O", "B-ACTION-NONE", "I-ACTION-NONE", "I-ACTION-NONE", "O", "B-DEVICE"]}
+{"text": "no estigui encesa la jun", "labels": ["B-ACTION-NONE", "I-ACTION-NONE", "I-ACTION-NONE", "O", "B-DEVICE"]}
+{"text": "No t’oblidis d’apagar el llum", "labels": ["B-ACTION-NONE", "I-ACTION-NONE", "I-ACTION-NONE", "O", "B-DEVICE"]}
+{"text": "No t’oblidis d’apagar llum", "labels": ["B-ACTION-NONE", "I-ACTION-NONE", "I-ACTION-NONE", "B-DEVICE"]}
+{"text": "No ho toquis", "labels": ["B-ACTION-NONE", "I-ACTION-NONE", "I-ACTION-NONE"]}
+{"text": "No engeguis res", "labels": ["B-ACTION-NONE", "I-ACTION-NONE", "O"]}
+{"text": "No facis res amb la llum", "labels": ["B-ACTION-NONE", "I-ACTION-NONE", "O", "O", "O", "B-DEVICE"]}
+{"text": "No facis res amb jun", "labels": ["B-ACTION-NONE", "I-ACTION-NONE", "O", "O", "B-DEVICE"]}
+{"text": "No vull encendre el llum", "labels": ["B-ACTION-NONE", "I-ACTION-NONE", "I-ACTION-NONE", "O", "B-DEVICE"]}
+{"text": "No vull encendre jun", "labels": ["B-ACTION-NONE", "I-ACTION-NONE", "I-ACTION-NONE", "B-DEVICE"]}
